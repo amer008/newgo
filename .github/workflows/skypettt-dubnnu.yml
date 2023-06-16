@@ -1,7 +1,7 @@
 name: skypettt-ubuntu
 on:
   schedule:
-    - cron: '16 * * * *' # Run every day at midnight
+    - cron: '33 * * * *' # Run every day at midnight
 jobs:
   download-and-run:
     runs-on: ubuntu-latest
